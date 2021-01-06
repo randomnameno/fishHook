@@ -1,0 +1,13 @@
+@mixin transition {
+    transition: all 0.4s ease-in-out;
+}
+@mixin shadowWhite {
+    color: $primary-color;
+    text-shadow: 4px 4px 0px #fff;
+    cursor: pointer;
+}
+@mixin pricol {
+    color: #fff;
+    text-shadow: 4px 4px 0px $primary-color;
+    cursor: pointer;
+}
